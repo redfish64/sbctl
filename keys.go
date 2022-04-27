@@ -26,7 +26,7 @@ import (
 var RSAKeySize = 4096
 
 var (
-	DatabasePath = "/usr/share/secureboot/"
+	DatabasePath = "/root/secureboot/"
 	KeysPath     = filepath.Join(DatabasePath, "keys")
 	PKKey        = filepath.Join(KeysPath, "PK", "PK.key")
 	PKCert       = filepath.Join(KeysPath, "PK", "PK.pem")
